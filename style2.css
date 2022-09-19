@@ -18,7 +18,7 @@ body {
 	color: rgba(255, 255, 255, 0.6);
 	font-weight: 400;
 	font-size: 1em;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -73,12 +73,12 @@ li {
 }
 .card_infos{
 	position: relative;
-	width: 50%;
+	flex-grow: 1;
 	padding: 4em;
 }
 
 .img_bloc{
-	width: 50%;
+	flex-grow: 1;
 	position: relative;
 }
 .overlay{
@@ -108,9 +108,7 @@ li {
 		height: 15em;
 	}
 	.card_infos{
-		width: auto;
 		text-align: center;
-		margin: auto;
 		padding: 3em 2em 1em 2em;
 
 	}
